@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\GameScene">
+      <UniqueIdentifier>{c96d36bd-b303-4fa0-ae8d-d41ac2bbf980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameScene">
+      <UniqueIdentifier>{f4011c64-6cbe-48a9-8594-d14f82d75852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object">
+      <UniqueIdentifier>{27b4456b-efa7-42fa-8adc-b61dd96e1229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Object">
+      <UniqueIdentifier>{7b3f0051-e2a6-4460-817c-3da610fe309f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Object\Player">
+      <UniqueIdentifier>{a00aa41a-242b-4c31-a95a-cf3e05c39aca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Object\Player">
+      <UniqueIdentifier>{4e2eb0d9-7ad9-4a69-a546-8fc4b0796e7f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>ソース ファイル\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>ソース ファイル\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>ソース ファイル\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectBase.cpp">
+      <Filter>ソース ファイル\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GachaScene.cpp">
+      <Filter>ソース ファイル\GameScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="KeyManager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>ヘッダー ファイル\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>ヘッダー ファイル\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>ヘッダー ファイル\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectBase.h">
+      <Filter>ヘッダー ファイル\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダー ファイル\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GachaScene.h">
+      <Filter>ヘッダー ファイル\GameScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
