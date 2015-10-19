@@ -152,22 +152,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BulletBase.cpp" />
+    <ClCompile Include="Enemy1.cpp" />
+    <ClCompile Include="EnemyBase.cpp" />
     <ClCompile Include="GachaScene.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="KeyManager.cpp" />
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="MainGame.cpp" />
     <ClCompile Include="ObjectBase.cpp" />
-    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerBase.cpp" />
+    <ClCompile Include="Player1.cpp" />
     <ClCompile Include="Title.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BulletBase.h" />
+    <ClInclude Include="Enemy1.h" />
+    <ClInclude Include="EnemyBase.h" />
     <ClInclude Include="GachaScene.h" />
     <ClInclude Include="KeyManager.h" />
     <ClInclude Include="GameScene.h" />
     <ClInclude Include="MainGame.h" />
     <ClInclude Include="ObjectBase.h" />
-    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerBase.h" />
+    <ClInclude Include="Player1.h" />
     <ClInclude Include="Title.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

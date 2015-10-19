@@ -7,7 +7,7 @@ Title::Title()
 	//コンストラクタ
 
 	m_KeyManager = new KeyManager();
-	m_Player = new Player();
+	m_Player = new Player1(300.0f,400.0f);
 }
 
 

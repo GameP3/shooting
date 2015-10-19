@@ -1,7 +1,7 @@
 #pragma once
 
 #include "GameScene.h"
-#include "Player.h"
+#include "Player1.h"
 
 class Title : public SceneBase
 {
@@ -13,6 +13,6 @@ public:
 private:
 	KeyManager* m_KeyManager;
 
-	Player* m_Player;
+	PlayerBase* m_Player;
 };
 
