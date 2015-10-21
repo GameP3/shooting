@@ -72,14 +72,17 @@
     <ClCompile Include="BulletBase.cpp">
       <Filter>ソース ファイル\Object\Bullet</Filter>
     </ClCompile>
-    <ClCompile Include="Player1.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
     <ClCompile Include="PlayerBase.cpp">
       <Filter>ソース ファイル\Object\Player</Filter>
     </ClCompile>
     <ClCompile Include="Enemy1.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\Object\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Player1.cpp">
+      <Filter>ソース ファイル\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalBullet.cpp">
+      <Filter>ソース ファイル\Object\Bullet</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -107,14 +110,17 @@
     <ClInclude Include="BulletBase.h">
       <Filter>ヘッダー ファイル\Object\Bullet</Filter>
     </ClInclude>
-    <ClInclude Include="Player1.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
     <ClInclude Include="PlayerBase.h">
       <Filter>ヘッダー ファイル\Object\Player</Filter>
     </ClInclude>
     <ClInclude Include="Enemy1.h">
-      <Filter>ヘッダー ファイル</Filter>
+      <Filter>ヘッダー ファイル\Object\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Player1.h">
+      <Filter>ヘッダー ファイル\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalBullet.h">
+      <Filter>ヘッダー ファイル\Object\Bullet</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

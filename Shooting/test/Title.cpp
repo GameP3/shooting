@@ -14,6 +14,7 @@ Title::Title()
 Title::~Title()
 {
 	//デストラクタ
+	delete(m_KeyManager);
 	delete(m_Player);
 }
 
@@ -28,7 +29,7 @@ SceneBase* Title::Update(GameScene*)
 
 	if (m_KeyManager->get_up_button() == PULL)
 	{
-		next = new GachaScene();
+		next = new MainGame();
 	}
 
 	return next;
