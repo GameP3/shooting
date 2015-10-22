@@ -1,11 +1,11 @@
 #include "NormalBullet.h"
 
 
-NormalBullet::NormalBullet(float posX, float posY)
+NormalBullet::NormalBullet(float posX, float posY, float rot)
 {
 	m_image = LoadGraph("image\\Bullet\\bullet1.png");
 	m_speed = 3;
-	m_rot = 0;
+	m_rot = rot;
 	m_pos.x = posX;
 	m_pos.y = posY;
 }

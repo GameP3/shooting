@@ -12,6 +12,7 @@ public:
 	~BulletBase();
 	virtual void Update(KeyManager*) = 0;
 	virtual void Draw() = 0;
+	float GetRot() { return m_rot; }
 protected:
 	float m_speed;	//’e‘¬
 	float m_rot;		//Šp“x

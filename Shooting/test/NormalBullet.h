@@ -4,7 +4,7 @@ class NormalBullet :
 	public BulletBase
 {
 public:
-	NormalBullet(float, float);
+	NormalBullet(float posX, float posY, float rot);
 	~NormalBullet();
 	void Update(KeyManager*);
 	void Draw();
