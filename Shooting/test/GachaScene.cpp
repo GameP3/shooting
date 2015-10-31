@@ -35,8 +35,8 @@ SceneBase * GachaScene::Update(GameScene *)
 	m_KeyManager->KeyCheck();
 	if (m_KeyManager->get_up_button() == HOLD)
 	{
-		//タイトルに戻りたいのに戻れない、、、。
-		//どうすると戻れるん?
+		//タイトルに戻る
+		clsDx();
 		next = new Title();
 	}
 
