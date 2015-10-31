@@ -13,6 +13,7 @@ private:
 	//À•W
 	int x;
 	int y;
+	int error;
 	int Random_value;
 	int Color;
 	int money;
