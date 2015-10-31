@@ -10,8 +10,14 @@ public:
 	void Draw(GameScene*);
 
 private:
+	//À•W
 	int x;
 	int y;
-	int ghandle;
+	int Random_value;
+	int Color;
+	int money;
+	int chara;
+	//ƒL[‘€ì
+	KeyManager* m_KeyManager;
 };
 
